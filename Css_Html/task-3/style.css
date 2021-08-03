@@ -1,0 +1,36 @@
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+
+
+}
+
+/*Когда на кнопку навели*/
+button:hover {
+    background: #ffaa00;
+    cursor: pointer;
+}
+/*Когда происходит клик*/
+button:active {
+    color: blue;
+    cursor: pointer;
+}
+/*Кнопка отключина*/
+button:disabled {
+    background: #6d6d6d;
+    cursor: auto;
+}
+/*Когда на кнопку кликнули*/
+button:focus {
+    background: #ff0034;
+    outline: none;
+    box-shadow: 0 0 0 3px #b7f3ec;
+}
+
+
+

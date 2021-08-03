@@ -1,0 +1,23 @@
+.example-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.example-3 {
+    display: grid;
+    justify-items: center;
+}
+
+.example-4 {
+    display: grid;
+    text-align: center;
+    align-self: center;
+}
+
+.example-5 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 6em
+}
